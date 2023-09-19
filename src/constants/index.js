@@ -209,7 +209,7 @@ import {
         },
       ],
       image: spotifyRec,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/midhunpaul396/spotify-recommendation-system",
     },
     {
       name: "Adastria",
@@ -247,7 +247,7 @@ import {
         }
       ],
       image: spotifyRec,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/midhunpaul396/Spotify-Data-Analysis",
     },
   ];
   
