@@ -4,25 +4,28 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    bootstrap,
+    laravel,
+    php,
     html,
+    excel,
+    python,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
+    qburst,
     git,
     figma,
-    docker,
     meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
+    spotifyRec,
     jobit,
     tripguide,
     threejs,
+    powerBI,
+    sparks,
+    pinkerala,
+    pyspark,
+    spotify
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +45,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Data Analyst",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Web Developer",
       icon: mobile,
     },
     {
@@ -54,47 +57,51 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI Designer",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Power BI",
+      icon: powerBI,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Excel",
+      icon: excel,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Laravel",
+      icon: laravel,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "php",
+      icon: php,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "css",
+      icon: css,
     },
     {
       name: "Three JS",
@@ -109,157 +116,138 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "HTML 5",
+      icon: html,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Data Analyst",
+      company_name: "Freelance",
+      icon: powerBI,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developed a Python-based web application that leverages MongoDB and Google Charts to analyze and visualize data from the Spotify music platform.",
+        "Developed a Python-based web application that recommends new songs to spotify users based on their listening habits",
+      ],
+    },
+    {
+      title: "Laravel Developer",
+      company_name: "Qburst",
+      icon: qburst,
+      iconBg: "#383E56",
+      date: "August 2021 - December 2022",
+      points: [
+        "Developing and maintaining web applications for Japanese E-commerce firm Adastria by utilizing technologies like Laravel, Bootstrap, and associated tools.",
+        "Working closely with cross-functional teams, including designers, product managers, and fellow developers, to produce top-notch products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Engaging in code reviews and offering valuable feedback to fellow developers.",
+      ],
+    },
+    {
+      title: "Web Development Intern",
+      company_name: "The Sparks Foundation",
+      icon: sparks,
+      iconBg: "#383E56",
+      date: "Nov 2020 - Dec 2020",
+      points: [
+        "Developing web applications using HTML, CSS, and JavaScript",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+      ],
+    },
+    {
+      title: "Graphic Designer",
+      company_name: "Pinkerala",
+      icon: pinkerala,
+      iconBg: "#E6DEDD",
+      date: "Mar 2020 - Apr 2020",
+      points: [
+        "Designing logos and brochures using Adobe Illustrator",
       ],
     },
   ];
   
-  const testimonials = [
+  const educations = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      course:
+        "Big Data Analytics",
+      college: "Georgian College",
+      city: "Barrie",
+      grade: "Deans List",
+      image: "https://equitek.ca/wp-content/uploads/2017/04/georgian-logo.jpg",
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      course:
+        "Bachelor of Information Technology",
+      college: "Cochin Univeristy of Science and Technology",
+      city: "Kochi",
+      grade: "First Class Honour",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOUlm2ox2FnmkywXUp_8V63Q4hK7164ZY-PDsDOaM&s",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Spotify Recommendation",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Music Recommendation system using PySpark that recommends music to users based on their listening habits",
       tags: [
         {
-          name: "react",
+          name: "pyspark",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "python",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "ALSalgorithm",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: spotifyRec,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Adastria",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A Japanese E-commerce platform, made admin pages for the platform using Laravel, jQuery and boostrap",
       tags: [
         {
-          name: "react",
+          name: "Laravel",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "jQuery",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
     },
+    {
+      name: "Spotify Data Analysis",
+      description:
+        "Analysed a spotify dataset and created visualizations using matplotlib in Jupyter notebook",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "matplotlib",
+          color: "green-text-gradient",
+        }
+      ],
+      image: spotifyRec,
+      source_code_link: "https://github.com/",
+    },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, educations, projects };
