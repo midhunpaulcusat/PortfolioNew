@@ -25,7 +25,8 @@ import {
     sparks,
     pinkerala,
     pyspark,
-    spotify
+    spotify,
+    adastria
   } from "../assets";
   
   export const navLinks = [
@@ -228,7 +229,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: adastria,
       source_code_link: "https://github.com/",
     },
     {

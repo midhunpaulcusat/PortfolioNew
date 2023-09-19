@@ -32,6 +32,7 @@ import pinkerala from "./company/pinkerala.svg";
 
 import spotifyRec from "./spotifyRec.png";
 import spotify from "./spotify.png";
+import adastria from "./adastria.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -68,5 +69,6 @@ export {
   qburst,
   sparks,
   pinkerala,
-  pyspark
+  pyspark,
+  adastria
 };
