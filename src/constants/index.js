@@ -230,7 +230,7 @@ import {
         },
       ],
       image: adastria,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.adastria.co.jp/english/",
     },
     {
       name: "Spotify Data Analysis",
