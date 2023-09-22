@@ -183,7 +183,7 @@ import {
       course:
         "Bachelor of Information Technology",
       college: "Cochin Univeristy of Science and Technology",
-      city: "Kochi",
+      city: "India",
       grade: "First Class Honour",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOUlm2ox2FnmkywXUp_8V63Q4hK7164ZY-PDsDOaM&s",
     },
