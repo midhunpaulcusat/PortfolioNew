@@ -181,6 +181,14 @@ import {
     },
     {
       course:
+        "Business Analytics",
+      college: "Seneca College",
+      city: "Markham",
+      grade: "Presidents Honor List",
+      image: "https://mrbasile.com/wp-content/uploads/2017/02/seneca-college-logo.png",
+    },
+    {
+      course:
         "Bachelor of Information Technology",
       college: "Cochin Univeristy of Science and Technology",
       city: "India",

@@ -56,7 +56,7 @@ const Feedbacks = () => {
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
         {educations.map((education, index) => (
-          <FeedbackCard key={education.name} index={index} {...education} />
+          <FeedbackCard key={education.course} index={index} {...education} />
         ))}
       </div>
     </div>
