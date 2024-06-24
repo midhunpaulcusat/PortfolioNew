@@ -135,7 +135,7 @@ import {
       ],
     },
     {
-      title: "Laravel Developer",
+      title: "Full Stack Developer",
       company_name: "Qburst",
       icon: qburst,
       iconBg: "#383E56",
@@ -156,16 +156,6 @@ import {
       points: [
         "Developing web applications using HTML, CSS, and JavaScript",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-      ],
-    },
-    {
-      title: "Graphic Designer",
-      company_name: "Pinkerala",
-      icon: pinkerala,
-      iconBg: "#E6DEDD",
-      date: "Mar 2020 - Apr 2020",
-      points: [
-        "Designing logos and brochures using Adobe Illustrator",
       ],
     },
   ];
