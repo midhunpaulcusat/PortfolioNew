@@ -131,7 +131,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developed a web applications using Three.js, React and Tailwind" ,
+        "Developed web applications using Three.js, React and Tailwind" ,
         "Developed a Python-based web application that leverages MongoDB and Google Charts to analyze and visualize data from the Spotify music platform.",
         "Developed a Python-based web application that recommends new songs to spotify users based on their listening habits",
       ],
