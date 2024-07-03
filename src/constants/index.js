@@ -66,12 +66,12 @@ import {
   
   const technologies = [
     {
-      name: "Power BI",
-      icon: powerBI,
+      name: "React JS",
+      icon: reactjs,
     },
     {
-      name: "Excel",
-      icon: excel,
+      name: "Power BI",
+      icon: powerBI,
     },
     {
       name: "Python",
@@ -84,10 +84,6 @@ import {
     {
       name: "Bootstrap",
       icon: bootstrap,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
     },
     {
       name: "Laravel",
