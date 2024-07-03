@@ -22,7 +22,7 @@ const Computers = ({ isMobile }) => {
       <ambientLight intensity={0.5} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.7}
+        scale={isMobile ? 0.6 : 0.7}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
@@ -37,7 +37,7 @@ const ComputersCanvas = () => {
     // Add a listener for changes to the screen size
     const mediaQuery = window.matchMedia("(max-width: 500px)");
 
-    // Set the initial value of the `isMobile` state variable
+    // Set the initial value of the isMobile state variable
     setIsMobile(mediaQuery.matches);
 
     // Define a callback function to handle changes to the media query
@@ -68,7 +68,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        {!isMobile && <Computers isMobile={isMobile} />}
+        <Computers isMobile={isMobile} />
       </Suspense>
 
       <Preload all />
