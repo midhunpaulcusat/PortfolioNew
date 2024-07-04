@@ -146,13 +146,13 @@ import {
       ],
     },
     {
-      title: "Web Development Intern",
-      company_name: "The Sparks Foundation",
-      icon: sparks,
+      title: "Web Developer",
+      company_name: "Pinkerala",
+      icon: pinkerala,
       iconBg: "#383E56",
-      date: "Nov 2020 - Dec 2020",
+      date: "Jan 2020 - Aug 2021",
       points: [
-        "Developing web applications using HTML, CSS, and JavaScript",
+        "Developing web applications using React.js, HTML, CSS, and Bootstrap",
         "Implementing responsive design and ensuring cross-browser compatibility.",
       ],
     },
