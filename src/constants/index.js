@@ -45,7 +45,11 @@ import {
   ];
   
   const services = [
-    
+
+    {
+      title: "Data Analyst",
+      icon: web,
+    },
     {
       title: "Web Developer",
       icon: mobile,
@@ -58,10 +62,7 @@ import {
       title: "UI Designer",
       icon: creator,
     },
-    {
-      title: "Data Analyst",
-      icon: web,
-    },
+    
   ];
   
   const technologies = [
@@ -121,14 +122,14 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer and Data Analyst",
+      title: "Data Analyst and Web Developer",
       company_name: "Freelance",
       icon: reactjs,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developed web applications using Three.js, React and Tailwind" ,
         "Developed a Python-based web application that leverages MongoDB and Google Charts to analyze and visualize data from the Spotify music platform.",
+        "Developed web applications using Three.js, React and Tailwind" ,
         "Developed a Python-based web application that recommends new songs to spotify users based on their listening habits",
       ],
     },
