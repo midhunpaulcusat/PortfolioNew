@@ -155,6 +155,7 @@ import {
       points: [
         "Developing web applications using HTML, CSS, JavaScript and Bootstrap",
         "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Used Bootstrap Flexbox to create responsive UIs, ensuring seamless functionality across devices and browsers.",
       ],
     },
   ];
