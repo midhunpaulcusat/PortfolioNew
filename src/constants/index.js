@@ -210,9 +210,9 @@ import {
       source_code_link: "https://github.com/midhunpaul396/spotify-recommendation-system",
     },
     {
-      name: "Adastria",
+      name: "QBurst",
       description:
-        "A Japanese E-commerce platform, made admin pages for the platform using Laravel, jQuery and boostrap",
+        "Designed and implemented an invoice spend tracking system with HiveQL, optimized Tableau dashboards for actionable insights, automated error classification and forecasting in Excel, and collaborated with stakeholders on ad-hoc reporting to enhance decision-making and operational efficiency.",
       tags: [
         {
           name: "Laravel",
@@ -228,7 +228,7 @@ import {
         },
       ],
       image: adastria,
-      source_code_link: "https://www.adastria.co.jp/english/",
+      source_code_link: "",
     },
     {
       name: "Spotify Data Analysis",
