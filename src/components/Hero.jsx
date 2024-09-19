@@ -19,8 +19,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Midhun</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          Analyzing data intricacies and developing web solutions that <br className='sm:block hidden' />
-          blend insight with innovation.
+          Transforming complex datasets into actionable insights and automated <br className='sm:block hidden' />
+          solutions that drive efficiency and informed decision-making.
           </p>
         </div>
       </div>
