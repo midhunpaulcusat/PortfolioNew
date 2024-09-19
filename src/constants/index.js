@@ -148,7 +148,7 @@ import {
       ],
     },
     {
-      title: "Web Development Intern",
+      title: "Data Science Intern",
       company_name: "The Sparks Foundation",
       icon: sparks,
       iconBg: "#383E56",
