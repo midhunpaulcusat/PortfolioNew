@@ -124,7 +124,7 @@ import {
     {
       title: "Data Analyst",
       company_name: "Freelance",
-      icon: reactjs,
+      icon: powerBI,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
