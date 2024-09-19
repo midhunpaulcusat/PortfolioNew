@@ -122,28 +122,29 @@ import {
   
   const experiences = [
     {
-      title: "Data Analyst and Web Developer",
+      title: "Data Analyst",
       company_name: "Freelance",
       icon: reactjs,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
         "Developed a Python-based web application that leverages MongoDB and Google Charts to analyze and visualize data from the Spotify music platform.",
-        "Developed web applications using Three.js, React and Tailwind" ,
         "Developed a Python-based web application that recommends new songs to spotify users based on their listening habits",
+        "Developed web applications using Three.js, React and Tailwind" ,
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Data Engineer",
       company_name: "Qburst",
       icon: qburst,
       iconBg: "#383E56",
       date: "August 2021 - December 2022",
       points: [
-        "Developing and maintaining web applications for Japanese E-commerce firm Adastria by utilizing technologies like Laravel, Bootstrap, and associated tools.",
-        "Working closely with cross-functional teams, including designers, product managers, and fellow developers, to produce top-notch products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Engaging in code reviews and offering valuable feedback to fellow developers.",
+        "Designed and implemented an invoice spend tracking system within the Operational Data Layer, enhancing deal visibility on dashboards through HiveQL.",
+        "Developed and optimized interactive Tableau dashboards, transforming large datasets into actionable business insights for key decision-makers.",
+        "Created dynamic monthly visualizations to present partner-level and buyer-level spending patterns, focusing on top spenders and enrollment trends.",
+        "Automated the preparation of error classification and volume forecasting reports using advanced Excel, reducing manual effort and improving break management efficiency.",
+        "Collaborated with stakeholders to generate ad-hoc reports and provide data-driven recommendations, ensuring accuracy in testing and validation reports utilized by senior management.",
       ],
     },
     {
@@ -153,9 +154,8 @@ import {
       iconBg: "#383E56",
       date: "Nov 2020 - Dec 2020",
       points: [
-        "Developing web applications using HTML, CSS, JavaScript and Bootstrap",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Used Bootstrap Flexbox to create responsive UIs, ensuring seamless functionality across devices and browsers.",
+        "Developed interactive dashboards using PowerBI and Tableau to visualize and present key data insights.",
+        "Utilized DAX (Data Analysis Expressions) in PowerBI to create calculated columns and measures, enabling more dynamic reports.",
       ],
     },
   ];
