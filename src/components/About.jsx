@@ -47,10 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a versatile professional with expertise in both web development and data analysis.
-         With a strong foundation in technologies like Laravel, React, JavaScript, and Bootstrap,
-          I've successfully built web applications that deliver seamless user experiences.
-           My skills extend beyond development; I am also proficient in data analysis and visualization tools such as PowerBI, Excel, and Tableau.
+        I am a versatile professional with a strong foundation in data engineering and analytics, holding postgraduate certificates in Big Data Analytics and Business Analytics.
+        I have experience designing and implementing data systems, including an invoice spend tracking system that enhanced deal visibility through HiveQL.
+        My skills in data visualization tools like Tableau, Power BI, and Excel enable me to transform large datasets into actionable insights for key decision-makers.
+        I specialize in automating processes, optimizing dashboards, and providing data-driven recommendations to support operational efficiency and business growth.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
