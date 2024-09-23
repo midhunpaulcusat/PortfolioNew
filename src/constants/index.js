@@ -47,15 +47,15 @@ import {
   const services = [
 
     {
-      title: "Data Analyst",
+      title: "Software Developer",
       icon: web,
     },
     {
-      title: "Data Engineer",
+      title: "Full Stack Engineer",
       icon: mobile,
     },
     {
-      title: "Web Developer",
+      title: "Data Analyst",
       icon: backend,
     },
     {
@@ -210,9 +210,9 @@ import {
       source_code_link: "https://github.com/midhunpaul396/spotify-recommendation-system",
     },
     {
-      name: "QBurst",
+      name: "Adastria",
       description:
-        "Designed and implemented an invoice spend tracking system with HiveQL, optimized Tableau dashboards for actionable insights, automated error classification and forecasting in Excel, and collaborated with stakeholders on ad-hoc reporting to enhance decision-making and operational efficiency.",
+        "Leveraged front-end technologies like React.js to create dynamic, responsive user interfaces and used back-end frameworks such as Laravel and Python for building scalable, high-performance applications. Enhanced the platform by integrating third-party APIs, managing MySQL databases, and implementing secure payment gateways.",
       tags: [
         {
           name: "Laravel",
