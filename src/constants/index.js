@@ -122,7 +122,7 @@ import {
   
   const experiences = [
     {
-      title: "Data Analyst",
+      title: "Web Developer and Data Analyst",
       company_name: "Freelance",
       icon: powerBI,
       iconBg: "#E6DEDD",
@@ -134,28 +134,28 @@ import {
       ],
     },
     {
-      title: "Data Engineer",
+      title: "Full Stack Engineer",
       company_name: "Qburst",
       icon: qburst,
       iconBg: "#383E56",
       date: "August 2021 - December 2022",
       points: [
-        "Designed and implemented an invoice spend tracking system within the Operational Data Layer, enhancing deal visibility on dashboards through HiveQL.",
-        "Developed and optimized interactive Tableau dashboards, transforming large datasets into actionable business insights for key decision-makers.",
-        "Created dynamic monthly visualizations to present partner-level and buyer-level spending patterns, focusing on top spenders and enrollment trends.",
-        "Automated the preparation of error classification and volume forecasting reports using advanced Excel, reducing manual effort and improving break management efficiency.",
-        "Collaborated with stakeholders to generate ad-hoc reports and provide data-driven recommendations, ensuring accuracy in testing and validation reports utilized by senior management.",
+        "Contributed to the development of full-stack solutions across multiple client projects, specializing in e-commerce platforms.",
+        "Worked extensively with front-end technologies like React.js and Vue.js, alongside back-end frameworks such as Laravel and Python.",
+        "Designed and developed scalable, high-performance applications, focusing on optimizing user experiences and streamlining business operations. Enhanced e-commerce solutions by integrating third-party APIs, managing databases, and implementing secure payment gateways.",
+        "Collaborated with cross-functional teams in an Agile setting, utilizing Git for version control and CI/CD practices for efficient, reliable deployments.",
       ],
     },
     {
-      title: "Data Science Intern",
+      title: "Web Development Intern",
       company_name: "The Sparks Foundation",
       icon: sparks,
       iconBg: "#383E56",
       date: "Nov 2020 - Dec 2020",
       points: [
-        "Developed interactive dashboards using PowerBI and Tableau to visualize and present key data insights.",
-        "Utilized DAX (Data Analysis Expressions) in PowerBI to create calculated columns and measures, enabling more dynamic reports.",
+        "Developed dynamic web applications using modern web technologies including React, JavaScript, HTML, CSS, and Bootstrap.",
+        "Collaborated in an Agile environment to design responsive, user-friendly interfaces, and optimized performance through React hooks, functional components, and state management (Redux).",
+        " Integrated RESTful APIs for seamless data handling and implemented Git for version control and collaborative development.",
       ],
     },
   ];
