@@ -122,18 +122,6 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer and Data Analyst",
-      company_name: "Freelance",
-      icon: powerBI,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developed a Python-based web application that leverages MongoDB and Google Charts to analyze and visualize data from the Spotify music platform.",
-        "Developed a Python-based web application that recommends new songs to spotify users based on their listening habits",
-        "Developed web applications using Three.js, React and Tailwind" ,
-      ],
-    },
-    {
       title: "Full Stack Engineer",
       company_name: "Qburst",
       icon: qburst,
