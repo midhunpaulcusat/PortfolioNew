@@ -200,7 +200,7 @@ import {
     {
       name: "MidhunInventory",
       description:
-        "Built an Inventory Management System using the MERN stack, featuring real-time inventory tracking and CRUD operations. Integrated MongoDB Atlas for data storage, developed RESTful APIs with Express.js, and created a responsive front-end with React.js. Used Node.js for efficient backend operations.",
+        "Built an Inventory Management System using the MERN stack, featuring real-time inventory tracking and CRUD operations. Integrated MongoDB Atlas for data storage, developed RESTful APIs with Express.js, and created a responsive front-end with React.js. Used Node.js for efficient backend operations. ",
       tags: [
         {
           name: "MongoDB",
