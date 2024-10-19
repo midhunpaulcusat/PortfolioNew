@@ -23,7 +23,6 @@ import {
     threejs,
     powerBI,
     sparks,
-    pinkerala,
     pyspark,
     spotify,
     adastria
@@ -132,6 +131,7 @@ import {
         "Worked extensively with front-end technologies like React.js and Vue.js, alongside back-end frameworks such as Laravel and Python.",
         "Designed and developed scalable, high-performance applications, focusing on optimizing user experiences and streamlining business operations. Enhanced e-commerce solutions by integrating third-party APIs, managing databases, and implementing secure payment gateways.",
         "Collaborated with cross-functional teams in an Agile setting, utilizing Git for version control and CI/CD practices for efficient, reliable deployments.",
+        
       ],
     },
     {
@@ -177,27 +177,6 @@ import {
   
   const projects = [
     {
-      name: "Spotify Recommendation",
-      description:
-        "Music Recommendation system using PySpark that recommends music to users based on their listening habits",
-      tags: [
-        {
-          name: "pyspark",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "python",
-          color: "green-text-gradient",
-        },
-        {
-          name: "ALSalgorithm",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: spotifyRec,
-      source_code_link: "https://github.com/midhunpaul396/spotify-recommendation-system",
-    },
-    {
       name: "Adastria",
       description:
         "Leveraged front-end technologies like React.js to create dynamic, responsive user interfaces and used back-end frameworks such as Laravel and Python for building scalable, high-performance applications. Enhanced the platform by integrating third-party APIs, managing MySQL databases, and implementing secure payment gateways.",
@@ -219,6 +198,31 @@ import {
       source_code_link: "",
     },
     {
+      name: "MidhunInventory",
+      description:
+        "Built an Inventory Management System using the MERN stack, featuring real-time inventory tracking and CRUD operations. Integrated MongoDB Atlas for data storage, developed RESTful APIs with Express.js, and created a responsive front-end with React.js. Used Node.js for efficient backend operations.",
+      tags: [
+        {
+          name: "MongoDB",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: javascript, 
+      source_code_link: "https://mid-invent-app.onrender.com/dashboard",
+    },
+    {
       name: "Spotify Data Analysis",
       description:
         "Analysed a spotify dataset and created visualizations using matplotlib in Jupyter notebook",
@@ -235,6 +239,27 @@ import {
       image: spotifyRec,
       source_code_link: "https://github.com/midhunpaul396/Spotify-Data-Analysis",
     },
+    {
+      name: "Spotify Recommendation",
+      description:
+        "Music Recommendation system using PySpark that recommends music to users based on their listening habits",
+      tags: [
+        {
+          name: "pyspark",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ALSalgorithm",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: spotifyRec,
+      source_code_link: "https://github.com/midhunpaul396/spotify-recommendation-system",
+    }
   ];
   
   export { services, technologies, experiences, educations, projects };

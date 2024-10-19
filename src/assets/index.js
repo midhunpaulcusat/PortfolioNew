@@ -26,9 +26,8 @@ import python from "./tech/python.png";
 import pyspark from "./tech/pyspark.png";
 
 import meta from "./company/meta.png";
-import sparks from "./company/sparks.png";
 import qburst from "./company/qburst.png";
-import pinkerala from "./company/pinkerala.svg";
+import sparks from "./company/sparks.png";
 
 import spotifyRec from "./spotifyRec.png";
 import spotify from "./spotify.png";
@@ -42,6 +41,7 @@ export {
   creator,
   mobile,
   web,
+  sparks,
   github,
   menu,
   close,
@@ -67,8 +67,6 @@ export {
   php,
   python,
   qburst,
-  sparks,
-  pinkerala,
   pyspark,
   adastria
 };
