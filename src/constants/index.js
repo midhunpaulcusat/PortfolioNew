@@ -179,7 +179,7 @@ import {
     {
       name: "Adastria",
       description:
-        "Leveraged front-end technologies like React.js to create dynamic, responsive user interfaces and used back-end frameworks such as Laravel and Python for building scalable, high-performance applications. Enhanced the platform by integrating third-party APIs, managing MySQL databases, and implementing secure payment gateways.",
+        "Leveraged front-end technologies like Vue.js and React.js to create dynamic, responsive user interfaces and used back-end frameworks such as Laravel and Python for building scalable, high-performance applications. Enhanced the platform by integrating third-party APIs, managing MySQL databases, and implementing secure payment gateways.",
       tags: [
         {
           name: "Laravel",
