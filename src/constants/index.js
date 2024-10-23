@@ -16,15 +16,10 @@ import {
     qburst,
     git,
     figma,
-    meta,
     spotifyRec,
-    jobit,
-    tripguide,
     threejs,
     powerBI,
     sparks,
-    pyspark,
-    spotify,
     adastria
   } from "../assets";
   
