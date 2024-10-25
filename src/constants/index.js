@@ -215,7 +215,7 @@ import {
         },
       ],
       image: javascript, 
-      source_code_link: "https://mid-invent-app.onrender.com/dashboard",
+      source_code_link: "https://mid-invent-app.onrender.com",
     },
     {
       name: "Spotify Data Analysis",
