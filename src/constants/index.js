@@ -215,7 +215,24 @@ import {
         },
       ],
       image: javascript, 
-      source_code_link: "https://mid-invent-app.onrender.com",
+      source_code_link: "https://www.mid-invent-app.onrender.com",
+    },
+    {
+      name: "Parallax Scroll Website",
+      description:
+        "Home Depot Themed Parallax Scroll Website to showcase my projects",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS3",
+          color: "green-text-gradient",
+        },
+      ],
+      image: javascript, 
+      source_code_link: "https://www.home-depot-supply-chain.vercel.app",
     },
     {
       name: "Spotify Data Analysis",
