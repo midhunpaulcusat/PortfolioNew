@@ -16,10 +16,15 @@ import {
     qburst,
     git,
     figma,
+    meta,
     spotifyRec,
+    jobit,
+    tripguide,
     threejs,
     powerBI,
     sparks,
+    pyspark,
+    spotify,
     adastria
   } from "../assets";
   
@@ -215,7 +220,36 @@ import {
         },
       ],
       image: javascript, 
-      source_code_link: "https://mid-invent-app.onrender.com",
+      source_code_link: "https://mid-invent-app.onrender.com/dashboard",
+    },
+    {
+      name: "VisitorClassifier",
+      description:
+        "Developed a React + Flask web application that enables users to input a URL, scrape its content, and dynamically generate questions using OpenAI's GPT API.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: reactjs, 
+      source_code_link: "https://github.com/midhunpaul396/VisitorClassifierFullstack",
     },
     {
       name: "Spotify Data Analysis",
