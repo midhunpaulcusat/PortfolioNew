@@ -220,7 +220,41 @@ import {
         },
       ],
       image: javascript, 
-      source_code_link: "https://mid-invent-app.onrender.com/dashboard",
+      source_code_link: "https://www.mid-invent-app.onrender.com",
+    },
+    {
+      name: "ThreeJS Portfolio",
+      description:
+        "Designed and developed a 3D portfolio website using React.js and Three.js",
+      tags: [
+        {
+          name: "React.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Three.js",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: threejs, 
+      source_code_link: "https://github.com/midhunpaul396/Portfolio",
+    },
+    {
+      name: "Parallax Scroll Website",
+      description:
+        "Home Depot Themed Parallax Scroll Website to showcase my projects",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS3",
+          color: "green-text-gradient",
+        },
+      ],
+      image: javascript, 
+      source_code_link: "https://www.home-depot-supply-chain.vercel.app",
     },
     {
       name: "VisitorClassifier",
