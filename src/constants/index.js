@@ -220,7 +220,7 @@ import {
         },
       ],
       image: javascript, 
-      source_code_link: "https://www.mid-invent-app.onrender.com",
+      source_code_link: "https://mid-invent-app.onrender.com/",
     },
     {
       name: "ThreeJS Portfolio",
