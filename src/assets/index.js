@@ -26,6 +26,7 @@ import python from "./tech/python.png";
 import pyspark from "./tech/pyspark.png";
 
 import meta from "./company/meta.png";
+import vosyn from "./company/vosyn.jpg";
 import qburst from "./company/qburst.png";
 import sparks from "./company/sparks.png";
 
@@ -68,5 +69,6 @@ export {
   python,
   qburst,
   pyspark,
-  adastria
+  adastria,
+  vosyn
 };

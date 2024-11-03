@@ -11,6 +11,7 @@ import {
     excel,
     python,
     css,
+    vosyn,
     reactjs,
     tailwind,
     qburst,
@@ -120,6 +121,17 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Backend Developer",
+      company_name: "Vosyn",
+      icon: vosyn,
+      iconBg: "#383E56",
+      date: "October 2024 - Present",
+      points: [
+        "Developing advanced AI voice synthesis solutions leveraging cutting-edge technologies such as Python and Django.",
+        
+      ],
+    },
     {
       title: "Full Stack Engineer",
       company_name: "Qburst",
