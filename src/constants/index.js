@@ -83,14 +83,6 @@ import {
       icon: javascript,
     },
     {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
-    {
-      name: "Laravel",
-      icon: laravel,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -99,24 +91,12 @@ import {
       icon: php,
     },
     {
-      name: "css",
-      icon: css,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "HTML 5",
-      icon: html,
     },
   ];
   
