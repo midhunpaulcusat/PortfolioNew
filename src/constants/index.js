@@ -278,6 +278,52 @@ import {
       source_code_link: "https://github.com/midhunpaul396/VisitorClassifierFullstack",
     },
     {
+      name: "VisitorClassifier",
+      description:
+        "Developed a React + Flask web application that enables users to input a URL, scrape its content, and dynamically generate questions using OpenAI's GPT API.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: reactjs, 
+      source_code_link: "https://github.com/midhunpaul396/VisitorClassifierFullstack",
+    },
+    {
+      name: "AI Dashbot",
+      description:
+        " AI Dashbot is a generative AI-powered sales dashboard designed to deliver actionable insights into store performance.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "green-text-gradient",
+        },
+      ],
+      image: python, 
+      source_code_link: "https://aidashbot.streamlit.app/",
+    },
+    {
       name: "Spotify Data Analysis",
       description:
         "Analysed a spotify dataset and created visualizations using matplotlib in Jupyter notebook",
