@@ -83,6 +83,14 @@ import {
       icon: javascript,
     },
     {
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
+      name: "Laravel",
+      icon: laravel,
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -91,12 +99,24 @@ import {
       icon: php,
     },
     {
+      name: "css",
+      icon: css,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "figma",
+      icon: figma,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
     },
   ];
   
@@ -278,33 +298,21 @@ import {
       source_code_link: "https://github.com/midhunpaul396/VisitorClassifierFullstack",
     },
     {
-      name: "VisitorClassifier",
+      name: "Spotify Data Analysis",
       description:
-        "Developed a React + Flask web application that enables users to input a URL, scrape its content, and dynamically generate questions using OpenAI's GPT API.",
+        "Analysed a spotify dataset and created visualizations using matplotlib in Jupyter notebook",
       tags: [
         {
-          name: "Python",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "flask",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "OpenAI",
+          name: "matplotlib",
           color: "green-text-gradient",
-        },
-        {
-          name: "React.js",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Node.js",
-          color: "yellow-text-gradient",
-        },
+        }
       ],
-      image: reactjs, 
-      source_code_link: "https://github.com/midhunpaul396/VisitorClassifierFullstack",
+      image: spotifyRec,
+      source_code_link: "https://github.com/midhunpaul396/Spotify-Data-Analysis",
     },
     {
       name: "AI Dashbot",
@@ -322,23 +330,6 @@ import {
       ],
       image: python, 
       source_code_link: "https://aidashbot.streamlit.app/",
-    },
-    {
-      name: "Spotify Data Analysis",
-      description:
-        "Analysed a spotify dataset and created visualizations using matplotlib in Jupyter notebook",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "matplotlib",
-          color: "green-text-gradient",
-        }
-      ],
-      image: spotifyRec,
-      source_code_link: "https://github.com/midhunpaul396/Spotify-Data-Analysis",
     },
     {
       name: "Spotify Recommendation",
