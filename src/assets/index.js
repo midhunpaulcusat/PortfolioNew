@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -7,6 +7,13 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import access from "./tech/access.svg";
+import msSway from "./tech/sway.svg";
+import msOffice from "./tech/office.svg";
+import sap from "./tech/sap.svg";
+import sql from "./tech/sql.png";
+import tableau from "./tech/tableau.png";
+import sharePoint from "./tech/sharepoint.svg";
 import css from "./tech/css.png";
 import powerBI from "./tech/powerbi.png";
 import laravel from "./tech/laravel.png";
@@ -27,6 +34,10 @@ import pyspark from "./tech/pyspark.png";
 
 import meta from "./company/meta.png";
 import vosyn from "./company/vosyn.jpg";
+import maersk from "./company/maersk.jpg";
+import maersk2 from "./company/maersk2.jpeg";
+import dxc from "./company/DXC.svg";
+import integreon from "./company/integreon.jpeg";
 import qburst from "./company/qburst.png";
 import sparks from "./company/sparks.png";
 
@@ -70,5 +81,16 @@ export {
   qburst,
   pyspark,
   adastria,
-  vosyn
+  vosyn,
+  maersk,
+  maersk2,
+  integreon,
+  dxc,
+  access,
+  msSway,
+  msOffice,
+  sap,
+  sharePoint,
+  tableau,
+  sql
 };

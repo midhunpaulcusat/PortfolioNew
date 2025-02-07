@@ -12,21 +12,32 @@ import {
     python,
     css,
     vosyn,
+    msOffice,
+    access,
+    msSway,
+    maersk,
+    sharePoint,
+    integreon,
+    dxc,
     reactjs,
     tailwind,
     qburst,
     git,
+    sap,
     figma,
     meta,
     spotifyRec,
     jobit,
     tripguide,
     threejs,
+    sql,
     powerBI,
     sparks,
     pyspark,
     spotify,
-    adastria
+    adastria,
+    tableau,
+    maersk2
   } from "../assets";
   
   export const navLinks = [
@@ -45,313 +56,202 @@ import {
   ];
   
   const services = [
-
     {
-      title: "Software Developer",
-      icon: web,
+      title: "Procurement Specialist",
+      icon: web, // Assuming 'web' could symbolize procurement systems or e-procurement tools
     },
     {
-      title: "Full Stack Engineer",
-      icon: mobile,
+      title: "Supply Chain Analyst",
+      icon: mobile, // 'mobile' could be used to represent on-the-go supply chain tracking or logistics apps
     },
     {
-      title: "Data Analyst",
-      icon: backend,
+      title: "Presentation Specialist",
+      icon: backend, // 'backend' might be used creatively to represent the backbone of presentation data handling
     },
     {
-      title: "UI Designer",
-      icon: creator,
+      title: "Project Coordinator",
+      icon: creator, // 'creator' fits well with project creation and management
     },
-    
   ];
   
   const technologies = [
+    
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "MS Excel",
+      icon: excel,
     },
     {
-      name: "Power BI",
-      icon: powerBI,
+      name: "MS Access",
+      icon: access,
+    },
+    {
+      name: "MS Sway",
+      icon: msSway,
+    },
+    {
+      name: "MS Office",
+      icon: msOffice,
     },
     {
       name: "Python",
       icon: python,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "SAP",
+      icon: sap,
     },
     {
-      name: "Bootstrap",
-      icon: bootstrap,
+      name: "SharePoint",
+      icon: sharePoint,
     },
     {
-      name: "Laravel",
-      icon: laravel,
+      name: "Power BI",
+      icon: powerBI,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Tableau",
+      icon: tableau,
     },
     {
-      name: "php",
-      icon: php,
-    },
-    {
-      name: "css",
-      icon: css,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "HTML 5",
-      icon: html,
-    },
+      name: "SQL",
+      icon: sql,
+    }
   ];
+  
   
   const experiences = [
     {
-      title: "Backend Developer",
-      company_name: "Vosyn",
-      icon: vosyn,
+      title: "Buyer",
+      company_name: "Maersk",
+      icon: maersk2,
       iconBg: "#383E56",
-      date: "October 2024 - Present",
+      date: "2023 - 2023",
       points: [
-        "Developing advanced AI voice synthesis solutions leveraging cutting-edge technologies such as Python and Django.",
-        
+        "Collaborated with business units to define key performance indicators (KPIs) and metrics for effective procurement management.",
+        "Managed procurement transactions and generated purchase orders in accordance with company policies.",
+        "Monitored supplier performance and resolved issues related to delivery, quality, and pricing discrepancies.",
+        "Identified opportunities for cost savings and process improvements, enhancing the efficiency of the Procure-to-Pay process.",
       ],
     },
     {
-      title: "Full Stack Engineer",
-      company_name: "Qburst",
-      icon: qburst,
+      title: "Senior Associate – Partner Insights",
+      company_name: "Maersk",
+      icon: maersk2,
       iconBg: "#383E56",
-      date: "August 2021 - December 2022",
+      date: "2021 - 2023",
       points: [
-        "Contributed to the development of full-stack solutions across multiple client projects, specializing in e-commerce platforms.",
-        "Worked extensively with front-end technologies like React.js and Vue.js, alongside back-end frameworks such as Laravel and Python.",
-        "Designed and developed scalable, high-performance applications, focusing on optimizing user experiences and streamlining business operations. Enhanced e-commerce solutions by integrating third-party APIs, managing databases, and implementing secure payment gateways.",
-        "Collaborated with cross-functional teams in an Agile setting, utilizing Git for version control and CI/CD practices for efficient, reliable deployments.",
-        
+        "Conducted quality assurance and controlled in preparing presentations following the branding style guidelines.",
+        "Created data visualizations and dashboards to communicate insights effectively to stakeholders.",
+        "Conducted market research and created detailed country profiles adhering to brand guidelines.",
       ],
     },
     {
-      title: "Web Development Intern",
-      company_name: "The Sparks Foundation",
-      icon: sparks,
+      title: "Presentation Specialist",
+      company_name: "Integreon Managed Solutions",
+      icon: integreon,
       iconBg: "#383E56",
-      date: "Nov 2020 - Dec 2020",
+      date: "2019 - 2021",
       points: [
-        "Developed dynamic web applications using modern web technologies including React, JavaScript, HTML, CSS, and Bootstrap.",
-        "Collaborated in an Agile environment to design responsive, user-friendly interfaces, and optimized performance through React hooks, functional components, and state management (Redux).",
-        " Integrated RESTful APIs for seamless data handling and implemented Git for version control and collaborative development.",
+        "Developed high-quality presentation templates from scratch to enhance client communications.",
+        "Maintained a self-quality control checklist to ensure error-free outputs and independently delivered projects with minimal supervision.",
+        "Formatted raw presentations to align with standard client templates, improving presentation quality and consistency.",
       ],
     },
+    {
+      title: "Project Coordinator",
+      company_name: "DXC Technology",
+      icon: dxc,
+      iconBg: "#383E56",
+      date: "2018 - 2019",
+      points: [
+        "Coordinated with external vendors, subcontractors, and partners to support project requirements.",
+        "Maintained project documentation and files, ensuring version control and accessibility for stakeholders.",
+        "Communicated project status updates, milestones, and risks to stakeholders, escalating issues as needed.",
+      ],
+    }    
   ];
+  
   
   const educations = [
     {
-      course:
-        "Big Data Analytics",
-      college: "Georgian College",
-      city: "Barrie",
-      grade: "Deans List",
-      image: "https://equitek.ca/wp-content/uploads/2017/04/georgian-logo.jpg",
+      course: "Analytics for Business Decision Making",
+      college: "George Brown College",
+      city: "Toronto",
+      image: "https://upload.wikimedia.org/wikipedia/commons/6/69/George_Brown_College_logo.svg", // This image link doesn't match George Brown College, it's just a placeholder
     },
     {
-      course:
-        "Business Analytics",
-      college: "Seneca College",
-      city: "Markham",
-      grade: "Presidents Honor List",
-      image: "https://mrbasile.com/wp-content/uploads/2017/02/seneca-college-logo.png",
+      course: "Supply Chain Management",
+      college: "Humber College",
+      city: "Toronto",
+      image: "https://logosandtypes.com/wp-content/uploads/2020/07/humber.svg",
     },
     {
-      course:
-        "Bachelor of Information Technology",
-      college: "Cochin Univeristy of Science and Technology",
-      city: "India",
-      grade: "First Class Honour",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOUlm2ox2FnmkywXUp_8V63Q4hK7164ZY-PDsDOaM&s",
+      course: "Master of Commerce - Accountancy",
+      college: "University of Mumbai",
+      city: "Mumbai",
+      image: "https://upload.wikimedia.org/wikipedia/en/7/7a/University_of_Mumbai_coat_of_arms.svg",
+    },
+    {
+      course: "Bachelor of Management Studies - Finance",
+      college: "University of Mumbai",
+      city: "Mumbai",
+      image: "https://upload.wikimedia.org/wikipedia/en/7/7a/University_of_Mumbai_coat_of_arms.svg",
     },
   ];
   
+  
   const projects = [
     {
-      name: "Adastria",
+      name: "Procure-to-Pay Optimization for Maersk",
       description:
-        "Leveraged front-end technologies like Vue.js and React.js to create dynamic, responsive user interfaces and used back-end frameworks such as Laravel and Python for building scalable, high-performance applications. Enhanced the platform by integrating third-party APIs, managing MySQL databases, and implementing secure payment gateways.",
+        "Led the automation of the procure-to-pay process at Maersk, focusing on integrating ERP systems and implementing automated approval workflows to streamline procurement, invoicing, and payment workflows.",
       tags: [
         {
-          name: "Laravel",
+          name: "SAP",
           color: "blue-text-gradient",
         },
         {
-          name: "jQuery",
+          name: "SQL",
           color: "green-text-gradient",
-        },
-        {
-          name: "bootstrap",
-          color: "pink-text-gradient",
         },
       ],
-      image: adastria,
-      source_code_link: "",
+      image: maersk,
+      source_code_link: "", // Assuming no source code link is available for this corporate project
     },
     {
-      name: "MidhunInventory",
+      name: "Warehouse Layout Optimization for Viasox",
       description:
-        "Built an Inventory Management System using the MERN stack, featuring real-time inventory tracking and CRUD operations. Integrated MongoDB Atlas for data storage, developed RESTful APIs with Express.js, and created a responsive front-end with React.js. Used Node.js for efficient backend operations. ",
+        "Collaborated on a capstone project to redesign the warehouse layout for Viasox, optimizing space utilization and improving inventory management to support the company’s expanding product line.",
       tags: [
         {
-          name: "MongoDB",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Express.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "React.js",
+          name: "Tableau",
           color: "pink-text-gradient",
         },
         {
-          name: "Node.js",
+          name: "MS Office",
           color: "yellow-text-gradient",
         },
       ],
-      image: javascript, 
-      source_code_link: "https://mid-invent-app.onrender.com/",
+      image: tableau, // Placeholder, ensure the image aligns with the project theme
+      source_code_link: "", // Assuming no source code link for this type of project
     },
     {
-      name: "ThreeJS Portfolio",
+      name: "Inventory Management & Loss Prevention at The Home Depot",
       description:
-        "Designed and developed a 3D portfolio website using React.js and Three.js",
+        "Part of the inventory team at The Home Depot, focused on conducting cycle counts, analyzing shrink and swell, and enhancing inventory control to minimize losses and improve financial performance.",
       tags: [
         {
-          name: "React.js",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Three.js",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: threejs, 
-      source_code_link: "https://github.com/midhunpaul396/Portfolio",
-    },
-    {
-      name: "Parallax Scroll Website",
-      description:
-        "Home Depot Themed Parallax Scroll Website to showcase my projects",
-      tags: [
-        {
-          name: "JavaScript",
+          name: "SharePoint",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS3",
+          name: "SAP",
           color: "green-text-gradient",
         },
       ],
-      image: javascript, 
-      source_code_link: "https://www.home-depot-supply-chain.vercel.app",
+      image: sharePoint, // Placeholder, adjust as per the actual usage
+      source_code_link: "", // Assuming this is not applicable
     },
-    {
-      name: "VisitorClassifier",
-      description:
-        "Developed a React + Flask web application that enables users to input a URL, scrape its content, and dynamically generate questions using OpenAI's GPT API.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "flask",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "OpenAI",
-          color: "green-text-gradient",
-        },
-        {
-          name: "React.js",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Node.js",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: reactjs, 
-      source_code_link: "https://github.com/midhunpaul396/VisitorClassifierFullstack",
-    },
-    {
-      name: "Spotify Data Analysis",
-      description:
-        "Analysed a spotify dataset and created visualizations using matplotlib in Jupyter notebook",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "matplotlib",
-          color: "green-text-gradient",
-        }
-      ],
-      image: spotifyRec,
-      source_code_link: "https://github.com/midhunpaul396/Spotify-Data-Analysis",
-    },
-    {
-      name: "AI Dashbot",
-      description:
-        " AI Dashbot is a generative AI-powered sales dashboard designed to deliver actionable insights into store performance.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "OpenAI",
-          color: "green-text-gradient",
-        },
-      ],
-      image: python, 
-      source_code_link: "https://aidashbot.streamlit.app/",
-    },
-    {
-      name: "Spotify Recommendation",
-      description:
-        "Music Recommendation system using PySpark that recommends music to users based on their listening habits",
-      tags: [
-        {
-          name: "pyspark",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "python",
-          color: "green-text-gradient",
-        },
-        {
-          name: "ALSalgorithm",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: spotifyRec,
-      source_code_link: "https://github.com/midhunpaul396/spotify-recommendation-system",
-    }
-  ];
+  ];  
   
   export { services, technologies, experiences, educations, projects };

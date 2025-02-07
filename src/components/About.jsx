@@ -47,10 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a dynamic full stack developer with a strong proficiency in both software development and data analysis.
-        With expertise in front-end technologies such as React.js, HTML5, CSS, and back-end frameworks like Node.js
-        and Laravel, I build responsive and scalable web applications. I have experience creating seamless user interfaces
-        and robust server-side logic while ensuring cross-platform compatibility and performance optimization.
+        Welcome to my portfolio! As a supply chain enthusiast, I hold expertise in optimizing procurement, vendor management, logistics and demand forecasting. With an extensive experience in data-driven strategy, I specialize in enhancing operations, process improvement, maintaining supplier relationships and optimizing the supply chain process. My passion is to leverage technology and analytics to create supply chain resilience. Browse through my website to explore the field of supply chain management through my journey, expertise and projects. Let’s connect!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -78,16 +78,13 @@ const Works = () => {
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
-        </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+        The following projects showcase my expertise in strategic procurement and supply chain optimization through real-world examples from my professional experience. Each project description highlights my role, the challenges addressed, and the solutions implemented to enhance operational efficiencies and business outcomes. While these projects typically do not involve public code repositories or live demos, they reflect my ability to tackle complex problems, utilize advanced business software, and lead effective project teams.
+      </motion.p>
+
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>

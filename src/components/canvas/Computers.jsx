@@ -9,25 +9,36 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.35} groundColor='black' />
+      <hemisphereLight intensity={0.7} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
         penumbra={1}
-        intensity={7}
+        intensity={10}
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={2} />
-      <ambientLight intensity={0.5} />
-      <primitive
-        object={computer.scene}
-        scale={isMobile ? 0.6 : 0.7}
-        position={isMobile ? [0, -2, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
-      />
+      <pointLight intensity={3} />
+      <ambientLight intensity={2} /> 
+      <directionalLight intensity={1} position={[10, 10, 10]} />
+      <directionalLight intensity={2} position={[-10, 10, -10]} />
+      
+      {/* Wrap the model in a group */}
+      <group
+        position={isMobile ? [-0.5, -2, -2.2] : [-0.5, -3.25, -1.5]}
+        rotation={[0, Math.PI / 2, 0]}
+      >
+        <primitive
+          object={computer.scene}
+          scale={isMobile ? 0.15 : 0.175}
+          // Increase the leftward shift to move the pivot further to the right.
+          position={[-3.0, 0, 0]}
+        />
+      </group>
+
     </mesh>
-  );
+  );  
+  
 };
 
 const ComputersCanvas = () => {
