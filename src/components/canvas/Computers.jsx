@@ -30,8 +30,9 @@ const Computers = ({ isMobile }) => {
       >
         <primitive
           object={computer.scene}
-          scale={isMobile ? 0.15 : 0.175}
-          // Increase the leftward shift to move the pivot further to the right.
+          // Scale the model smaller on mobile devices (e.g., 0.1) 
+          // and use a slightly larger scale on desktops (e.g., 0.175)
+          scale={isMobile ? 0.07 : 0.175}
           position={[-3.0, 0, 0]}
         />
       </group>
