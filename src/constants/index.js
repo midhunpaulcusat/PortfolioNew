@@ -189,13 +189,13 @@ import {
       course: "Master of Commerce - Accountancy",
       college: "University of Mumbai",
       city: "Mumbai",
-      image: "https://upload.wikimedia.org/wikipedia/en/7/7a/University_of_Mumbai_coat_of_arms.svg",
+      image: "https://webweb.ams3.cdn.digitaloceanspaces.com/data/anna-leela-college.webweb.ai.in/1705571275_a350133f83201298ed4f.png",
     },
     {
       course: "Bachelor of Management Studies - Finance",
       college: "University of Mumbai",
       city: "Mumbai",
-      image: "https://upload.wikimedia.org/wikipedia/en/7/7a/University_of_Mumbai_coat_of_arms.svg",
+      image: "https://webweb.ams3.cdn.digitaloceanspaces.com/data/anna-leela-college.webweb.ai.in/1705571275_a350133f83201298ed4f.png",
     },
   ];
   
