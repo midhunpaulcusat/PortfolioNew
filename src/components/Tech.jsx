@@ -14,7 +14,7 @@ const Tech = () => {
     <>
       {/* Animated header */}
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText}`}>Skills.</h2>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Skills.</h2>
       </motion.div>
 
       {/* Technology icons with titles */}
